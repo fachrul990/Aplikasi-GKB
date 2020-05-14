@@ -286,6 +286,8 @@
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(305, 89);
             this.textBox1.TabIndex = 26;
+            this.textBox1.TabStop = false;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -367,7 +369,7 @@
         private System.Windows.Forms.Label result;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
-        public System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
+        public System.Windows.Forms.TextBox textBox1;
     }
 }

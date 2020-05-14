@@ -186,13 +186,18 @@ namespace WindowsFormsApp1
             this.result.Text = "0";
             this.winscore.Text = "0";
             this.winscorecpu.Text = "0";
-            this.tiesscore.Text = "-";
+            this.tiesscore.Text = "0";
             this.round.Text = "0";
             winscoree = 0;
             winscorecpuu = 0;
             tiesscoree = 0;
             roundd = 0;
             game_Load(sender,e);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
