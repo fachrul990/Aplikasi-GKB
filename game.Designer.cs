@@ -279,12 +279,12 @@
             this.textBox1.AcceptsReturn = true;
             this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.textBox1.Location = new System.Drawing.Point(388, 330);
+            this.textBox1.Location = new System.Drawing.Point(699, 491);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox1.Size = new System.Drawing.Size(305, 89);
+            this.textBox1.Size = new System.Drawing.Size(309, 58);
             this.textBox1.TabIndex = 26;
             this.textBox1.TabStop = false;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
